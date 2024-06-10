@@ -1,6 +1,5 @@
 import { useState, useEffect, useContext } from "react";
 import { useParams } from "react-router-dom";
-
 import { fetchDataFromApi } from "../utils/api";
 import SearchResultHeader from "./SearchResultHeader";
 import Footer from "./Footer";
